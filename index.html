@@ -25,7 +25,18 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="mainWrapper">
+    <h1>Berapa berat badan kamu di bulan atau planet lain?</h1>
+    <p>Tahukah kamu bahwa berat badan kamu berbeda-beda tergantung di planet mana kamu berada.</p>
+    <i>Masukkan berat badan kamu saat ini</i>
+    <input type="number" id="inputWeight"/>
+    <ul class="celestialBodies">
+      <li>Bulan: <span id="moon"></span></li>
+      <li>Mars: <span id="mars"></span></li>
+      <li>Jupiter: <span id="jupiter"></span></li>
+      <li>Matahari: <span id="sun"></span></li>
+    </ul>
+  </div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
