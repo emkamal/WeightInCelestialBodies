@@ -1,9 +1,14 @@
 let gravityOf = {
+    sun: 274,
+    mercury: 3.7,
+    venus: 8.87,
     earth: 9.807,
     moon: 1.62,
     mars: 3.711,
     jupiter: 24.79,
-    sun: 274
+    saturn: 10.44,
+    neptune: 11.15,
+    pluto: 0.58
 };
 var inputWeight = document.getElementById("inputWeight");
 var moon = document.getElementById("moon");
